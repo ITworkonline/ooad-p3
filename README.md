@@ -21,6 +21,10 @@
 ----**Comments:**
 We use Factory Pattern, Decorator Pattern, and Observer Pattern in this project. For the factory pattern, we designed a FoodFactory to generate a new roll by its type. For the decorator pattern, we designed a class called ToppingDecorator（It acctually not only works for topping, it works for all extra). The decorator can helped us to allow behavior to be added to an individual object and without affecting the behavior of other objects from the same class. And we used extraFilling, extraTopping, and extraSauce to inherit from this decorator. For the observer pattern, we designed a obersver to ......
 
+
+----**Assumptions:** 
+We assumed the random pick was uniform distribution. For example, every time, when causal customer comes in, they will order randomly from 1-3 roll. And in this case, we will use random.nextlnt(3)+1 to generate the roll number. And then, by this roll number, we can generate random rolls. 
+
 ----**Demo Codes:**  
 Enum RollType(Order.java): This helped us to define the type of the roll.
 ```java
