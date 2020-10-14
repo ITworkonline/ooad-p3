@@ -1,10 +1,23 @@
 
-#Title: Project 2: Improved the week of Animals and Zooemployees
+#Title: Project 3: Roll Store Management
 **Team Members:** Fei Hu, Jie Wang
 **Folder Map:** 
 
-> class animal.java    
+> class Food.java    
 
->> subclass Canine.java  
+>> subclass EggRoll.java, JellyRoll.java, SpringRoll.java, Pastry.java, SausageRoll.java 
 
->>> subclass Wolf, Dog  
+>> subclass ToppingDecorator.java
+
+>>> subclass ExtraFilling.java, ExtraSauce.java, ExtraTopping.java
+
+> Class Order.java
+
+>> subclass Casual.java, Business.java, Catering.java
+
+> Class Factory.java
+
+**Comments:**
+We mainly use Factory Pattern to design this roll store management system. By set Food() as superclass to descrip roll name and description, 
+
+**Issues:**
